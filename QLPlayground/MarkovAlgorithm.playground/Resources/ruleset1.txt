@@ -1,0 +1,8 @@
+# This rules file is extracted from Wikipedia:
+# http://en.wikipedia.org/wiki/Markov_Algorithm
+A -> apple
+B -> bag
+S -> shop
+T -> the
+the shop -> my brother
+a never used -> .terminating rule

@@ -1,0 +1,11 @@
+# BNF Syntax testing rules
+A -> apple
+WWWW -> with
+Bgage -> ->.*
+B -> bag
+->.* -> money
+W -> WW
+S -> .shop
+T -> the
+the shop -> my brother
+a never used -> .terminating rule

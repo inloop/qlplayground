@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BCF48621BC3163D0027D1A0 /* QLPlayground.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BD52FB61BC25A4C00EA6A7E /* QLPlayground.qlgenerator */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3BCF48711BC4EBB50027D1A0 /* shCore.css in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF486C1BC4EBB50027D1A0 /* shCore.css */; settings = {ASSET_TAGS = (); }; };
+		3BCF48721BC4EBB50027D1A0 /* format.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF486D1BC4EBB50027D1A0 /* format.html */; settings = {ASSET_TAGS = (); }; };
+		3BCF48731BC4EBB50027D1A0 /* shCore.js in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF486F1BC4EBB50027D1A0 /* shCore.js */; settings = {ASSET_TAGS = (); }; };
+		3BCF48741BC4EBB50027D1A0 /* brush.js in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF48701BC4EBB50027D1A0 /* brush.js */; settings = {ASSET_TAGS = (); }; };
+		3BCF48781BC4EE530027D1A0 /* theme.css in Resources */ = {isa = PBXBuildFile; fileRef = 3BCF48771BC4EE530027D1A0 /* theme.css */; settings = {ASSET_TAGS = (); }; };
+		3BCF487C1BC50A7C0027D1A0 /* PreviewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF487B1BC50A7C0027D1A0 /* PreviewBuilder.swift */; settings = {ASSET_TAGS = (); }; };
+		3BCF48831BC636960027D1A0 /* PlaygroundParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCF48821BC636960027D1A0 /* PlaygroundParser.swift */; settings = {ASSET_TAGS = (); }; };
+		3BD52FBA1BC25A4C00EA6A7E /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD52FB91BC25A4C00EA6A7E /* GenerateThumbnailForURL.m */; };
+		3BD52FBC1BC25A4C00EA6A7E /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD52FBB1BC25A4C00EA6A7E /* GeneratePreviewForURL.m */; };
+		3BD52FBE1BC25A4C00EA6A7E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BD52FBD1BC25A4C00EA6A7E /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BCF48611BC316210027D1A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/QuickLook";
+			dstSubfolderSpec = 0;
+			files = (
+				3BCF48621BC3163D0027D1A0 /* QLPlayground.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BCF486C1BC4EBB50027D1A0 /* shCore.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCore.css; sourceTree = "<group>"; };
+		3BCF486D1BC4EBB50027D1A0 /* format.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = format.html; sourceTree = "<group>"; };
+		3BCF486F1BC4EBB50027D1A0 /* shCore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shCore.js; sourceTree = "<group>"; };
+		3BCF48701BC4EBB50027D1A0 /* brush.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = brush.js; sourceTree = "<group>"; };
+		3BCF48771BC4EE530027D1A0 /* theme.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = theme.css; sourceTree = "<group>"; };
+		3BCF487B1BC50A7C0027D1A0 /* PreviewBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewBuilder.swift; sourceTree = "<group>"; };
+		3BCF48821BC636960027D1A0 /* PlaygroundParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundParser.swift; sourceTree = "<group>"; };
+		3BD52FB61BC25A4C00EA6A7E /* QLPlayground.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLPlayground.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD52FB91BC25A4C00EA6A7E /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		3BD52FBB1BC25A4C00EA6A7E /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		3BD52FBD1BC25A4C00EA6A7E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3BD52FBF1BC25A4C00EA6A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD52FB21BC25A4C00EA6A7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B3A2A671BC6BE9E00143304 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF486A1BC4EBB50027D1A0 /* highlight */,
+				3BD52FBF1BC25A4C00EA6A7E /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BCF486A1BC4EBB50027D1A0 /* highlight */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF486D1BC4EBB50027D1A0 /* format.html */,
+				3BCF486B1BC4EBB50027D1A0 /* css */,
+				3BCF486E1BC4EBB50027D1A0 /* js */,
+			);
+			path = highlight;
+			sourceTree = "<group>";
+		};
+		3BCF486B1BC4EBB50027D1A0 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF48771BC4EE530027D1A0 /* theme.css */,
+				3BCF486C1BC4EBB50027D1A0 /* shCore.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		3BCF486E1BC4EBB50027D1A0 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF486F1BC4EBB50027D1A0 /* shCore.js */,
+				3BCF48701BC4EBB50027D1A0 /* brush.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		3BD52FAC1BC25A4C00EA6A7E = {
+			isa = PBXGroup;
+			children = (
+				3BD52FB81BC25A4C00EA6A7E /* QLPlayground */,
+				3BD52FB71BC25A4C00EA6A7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD52FB71BC25A4C00EA6A7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD52FB61BC25A4C00EA6A7E /* QLPlayground.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD52FB81BC25A4C00EA6A7E /* QLPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				3B3A2A671BC6BE9E00143304 /* Resources */,
+				3BD52FB91BC25A4C00EA6A7E /* GenerateThumbnailForURL.m */,
+				3BD52FBB1BC25A4C00EA6A7E /* GeneratePreviewForURL.m */,
+				3BD52FBD1BC25A4C00EA6A7E /* main.c */,
+				3BCF487B1BC50A7C0027D1A0 /* PreviewBuilder.swift */,
+				3BCF48821BC636960027D1A0 /* PlaygroundParser.swift */,
+			);
+			path = QLPlayground;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BD52FB31BC25A4C00EA6A7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BD52FB51BC25A4C00EA6A7E /* QLPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD52FC21BC25A4C00EA6A7E /* Build configuration list for PBXNativeTarget "QLPlayground" */;
+			buildPhases = (
+				3BD52FB11BC25A4C00EA6A7E /* Sources */,
+				3BD52FB21BC25A4C00EA6A7E /* Frameworks */,
+				3BD52FB31BC25A4C00EA6A7E /* Headers */,
+				3BD52FB41BC25A4C00EA6A7E /* Resources */,
+				3BCF48611BC316210027D1A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLPlayground;
+			productName = QLPlayground;
+			productReference = 3BD52FB61BC25A4C00EA6A7E /* QLPlayground.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD52FAD1BC25A4C00EA6A7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Inloop, s.r.o.";
+				TargetAttributes = {
+					3BD52FB51BC25A4C00EA6A7E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 3BD52FB01BC25A4C00EA6A7E /* Build configuration list for PBXProject "QLPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BD52FAC1BC25A4C00EA6A7E;
+			productRefGroup = 3BD52FB71BC25A4C00EA6A7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD52FB51BC25A4C00EA6A7E /* QLPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD52FB41BC25A4C00EA6A7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCF48741BC4EBB50027D1A0 /* brush.js in Resources */,
+				3BCF48711BC4EBB50027D1A0 /* shCore.css in Resources */,
+				3BCF48781BC4EE530027D1A0 /* theme.css in Resources */,
+				3BCF48731BC4EBB50027D1A0 /* shCore.js in Resources */,
+				3BCF48721BC4EBB50027D1A0 /* format.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD52FB11BC25A4C00EA6A7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCF487C1BC50A7C0027D1A0 /* PreviewBuilder.swift in Sources */,
+				3BCF48831BC636960027D1A0 /* PlaygroundParser.swift in Sources */,
+				3BD52FBA1BC25A4C00EA6A7E /* GenerateThumbnailForURL.m in Sources */,
+				3BD52FBC1BC25A4C00EA6A7E /* GeneratePreviewForURL.m in Sources */,
+				3BD52FBE1BC25A4C00EA6A7E /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BD52FC01BC25A4C00EA6A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BD52FC11BC25A4C00EA6A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BD52FC31BC25A4C00EA6A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = QLPlayground/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.inloop.QLPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		3BD52FC41BC25A4C00EA6A7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = QLPlayground/Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.inloop.QLPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD52FB01BC25A4C00EA6A7E /* Build configuration list for PBXProject "QLPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD52FC01BC25A4C00EA6A7E /* Debug */,
+				3BD52FC11BC25A4C00EA6A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD52FC21BC25A4C00EA6A7E /* Build configuration list for PBXNativeTarget "QLPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD52FC31BC25A4C00EA6A7E /* Debug */,
+				3BD52FC41BC25A4C00EA6A7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD52FAD1BC25A4C00EA6A7E /* Project object */;
+}
