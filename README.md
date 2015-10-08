@@ -2,6 +2,8 @@ QLPlayground
 ================================
 **QLPlayground** is a QuickLook generator for Xcode Playgrounds. Supports both single and multiple paged playgrounds.
 
+![Screenshot of QLPlayground](https://github.com/inloop/qlplayground/blob/master/qlplayground-screen-1.png)
+
 Installation
 ------------
 To install, either build the `QLPlayground` target or download [latest release](https://github.com/inloop/qlplayground/releases/latest). Then move the `QLPlayground.qlgenerator` into `~/Library/QuickLook/` or into `/Library/QuickLook/`. Later will make it available for all users.
