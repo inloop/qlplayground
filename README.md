@@ -4,8 +4,7 @@ QLPlayground
 
 Installation
 ------------
-
-To install, build the `QLPlayground` target and move the `QLPlayground.qlgenerator` into `~/Library/QuickLook/` or into `/Library/QuickLook/`. Later will make it available for all users.
+To install, either build the `QLPlayground` target or download [latest release](https://github.com/inloop/qlplayground/releases/latest). Then move the `QLPlayground.qlgenerator` into `~/Library/QuickLook/` or into `/Library/QuickLook/`. Later will make it available for all users.
 Optionally run `qlmanage -r` to reload QL generators.
 
 Customization
