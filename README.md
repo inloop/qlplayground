@@ -9,6 +9,9 @@ Installation
 To install, either build the `QLPlayground` target or download the [latest release](https://github.com/inloop/qlplayground/releases/latest). Then move the `QLPlayground.qlgenerator` into `~/Library/QuickLook/` or into `/Library/QuickLook/`. Later will make it available for all users.
 Optionally run `qlmanage -r` to reload QL generators.
 
+####[Homebrew-Cask](https://github.com/caskroom/homebrew-cask)
+`$ brew cask install inloop-qlplayground`
+
 Customization
 -------------
 
