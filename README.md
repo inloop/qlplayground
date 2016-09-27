@@ -20,7 +20,7 @@ The generator uses [SyntaxHighlighter](http://alexgorbatchev.com/SyntaxHighlight
 License
 -------
 
-Copyright (c) 2015 Jakub Petrík, Inloop, s.r.o.
+Copyright (c) 2015 Inloop, s.r.o.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
